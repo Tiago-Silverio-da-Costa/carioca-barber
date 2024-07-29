@@ -1,12 +1,31 @@
+"use client";
+
 import { Section, TextDecorator } from "@/styles/home";
 import Header from "./header";
 import Link from "next/link";
+import localFont from "next/font/local";
+import { usePathname } from "next/navigation";
+
+const autogate = localFont({
+    src: [
+        {
+            path: "../public/fonts/autogate-sans.ttf",
+            weight: "700",
+            style: "normal",
+        },
+    ],
+})
 
 export default function Home() {
+
+    const pathname = usePathname();
+
     return (
         <Section $bg="/hero-image.jpg">
-            <Header />
-            <div className="flex flex-col py-4">
+            {pathname === "/" && (
+                <Header />
+            )}
+            <div className="flex flex-col py-16">
 
                 <div className="flex w-full opacity-0 md:opacity-100">
                     <div className="max-w-6xl mx-auto w-5/6">
@@ -28,7 +47,7 @@ export default function Home() {
                 <div className="max-w-6xl mx-auto w-5/6 py-8">
                     <div className="flex flex-col gap-8 md:flex-row justify-between items-end">
                         <p className="text-sm tracking-tight leading-5 text-start max-w-96">Nossa missão é oferecer um serviço excepcional em um ambiente acolhedor e descontraído. Seja você um fã de um corte clássico, um moderno fade ou uma barba feita na navalha, nossos talentosos barbeiros estão dedicados a fazer você se sentir incrível.</p>
-                        <h1 className="uppercase text-3xl md:text-5xl font-bold text-end max-w-2xl">Onde Tradição se encontra com a modernidade</h1>
+                        <h1 className={`${autogate.className} uppercase text-3xl md:text-5xl font-bold text-end max-w-lg`}>Onde Tradição se encontra com a modernidade</h1>
                     </div>
                 </div>
             </div>

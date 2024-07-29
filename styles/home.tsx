@@ -8,9 +8,9 @@ export const Section = styled.section<{
     background-size: cover;
     background-position: 20% 50%; 
     position: relative;
-    box-shadow: -29px 1px 124px 59px rgba(0,0,0,0.75) inset;
-    -webkit-box-shadow: -29px 1px 124px 59px rgba(0,0,0,0.75) inset;
-    -moz-box-shadow: -29px 1px 124px 59px rgba(0,0,0,0.75) inset;
+box-shadow: 44px -6px 131px 112px rgba(0,0,0,0.75) inset;
+-webkit-box-shadow: 44px -6px 131px 112px rgba(0,0,0,0.75) inset;
+-moz-box-shadow: 44px -6px 131px 112px rgba(0,0,0,0.75) inset;
 
     @media (min-width: 768px) {
     background-position: center;
@@ -18,7 +18,7 @@ export const Section = styled.section<{
 `;
 
 
-export const TextDecorator = styled.section`
+export const TextDecorator = styled.div`
     box-shadow: -1px 1px 124px 91px rgba(0,0,0,0.75) inset;
     -webkit-box-shadow: -1px 1px 124px 91px rgba(0,0,0,0.75) inset;
     -moz-box-shadow: -1px 1px 124px 91px rgba(0,0,0,0.75) inset;

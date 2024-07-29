@@ -19,22 +19,22 @@ export default function Header() {
             <nav className="items-center gap-4 border border-white hidden md:flex rounded-md">
                 <ul className="group">
                     <li className="flex flex-col items-center">
-                        <Link className={`${pathname === "/" ? "bg-white text-black" : "text-white/50"} rounded-[3px] m-[2px] px-4 py-2 text-sm text-white/50 transition-all duration-300`} href="/">Ínicio</Link>
+                        <Link className={`${pathname === "/" ? "bg-white text-black" : "text-white"} font-bold rounded-[3px] m-[2px] px-4 py-2 text-sm text-black transition-all duration-300`} href="/">Ínicio</Link>
                     </li>
                 </ul>
                 <ul className="group">
                     <li className="flex flex-col items-center">
-                        <Link className={`${pathname === "/servico" ? "bg-white text-black" : "text-white"} rounded-[3px] m-[2px] px-4 py-2 text-sm text-white transition-all duration-300`} href="/">Serviço</Link>
+                        <Link className={`${pathname === "/servicos" ? "bg-white text-black" : "text-white"} font-bold rounded-[3px] m-[2px] px-4 py-2 text-sm text-black transition-all duration-300`} href="/servicos">Serviços</Link>
                     </li>
                 </ul>
                 <ul className="group">
                     <li className="flex flex-col items-center">
-                        <Link className={`${pathname === "/sobre" ? "bg-white text-black" : "text-white"} rounded-[3px] m-[2px] px-4 py-2 text-sm text-white transition-all duration-300`} href="/">Sobre</Link>
+                        <Link className={`${pathname === "/sobre" ? "bg-white text-black" : "text-white"} font-bold rounded-[3px] m-[2px] px-4 py-2 text-sm text-black transition-all duration-300`} href="/sobre">Sobre</Link>
                     </li>
                 </ul>
                 <ul className="group">
                     <li className="flex flex-col items-center">
-                        <Link className={`${pathname === "/barbeiros" ? "bg-white text-black" : "text-white"} rounded-[3px] m-[2px] px-4 py-2 text-sm text-white transition-all duration-300`} href="/">Barbeiros</Link>
+                        <Link className={`${pathname === "/barbeiros" ? "bg-white text-black" : "text-white"} font-bold rounded-[3px] m-[2px] px-4 py-2 text-sm text-black transition-all duration-300`} href="/barbeiros">Barbeiros</Link>
                     </li>
                 </ul>
             </nav>
@@ -74,16 +74,16 @@ export default function Header() {
                         <ul className="flex flex-col gap-4 mt-8">
                             <h1>Barbearia Carioca</h1>
                             <li className="flex gap-2 items-center justify-center mt-4">
-                                <Link onClick={() => setOpenPopup(false)} className={`${pathname === "/" ? "bg-white text-black" : "text-white"} text-center rounded-[3px] m-[2px] px-4 py-2 uppercase text-lg text-textTitle transition-all duration-300`} href="/">Ínicio</Link>
+                                <Link onClick={() => setOpenPopup(false)} className={`${pathname === "/" ? "bg-white text-black" : "text-white"} font-bold text-center rounded-[3px] m-[2px] px-4 py-2 uppercase text-lg text-textTitle transition-all duration-300`} href="/">Ínicio</Link>
                             </li>
                             <li className="flex gap-2 items-center justify-center">
-                                <Link onClick={() => setOpenPopup(false)} className={`${pathname === "/servico" ? "bg-white text-black" : "text-white"} text-center rounded-[3px] m-[2px] px-4 py-2 uppercase text-lg text-textTitle transition-all duration-300`} href="/">Serviços</Link>
+                                <Link onClick={() => setOpenPopup(false)} className={`${pathname === "/servicos" ? "bg-white text-black" : "text-white"} font-bold text-center rounded-[3px] m-[2px] px-4 py-2 uppercase text-lg text-textTitle transition-all duration-300`} href="/servicos">Serviços</Link>
                             </li>
                             <li className="flex gap-2 items-center justify-center">
-                                <Link onClick={() => setOpenPopup(false)} className={`${pathname === "/sobre" ? "bg-white text-black" : "text-white"} text-center rounded-[3px] m-[2px] px-4 py-2 uppercase text-lg text-textTitle transition-all duration-300`} href="/">Sobre</Link>
+                                <Link onClick={() => setOpenPopup(false)} className={`${pathname === "/#sobre" ? "bg-white text-black" : "text-white"} font-bold text-center rounded-[3px] m-[2px] px-4 py-2 uppercase text-lg text-textTitle transition-all duration-300`} href="/#sobre">Sobre</Link>
                             </li>
                             <li className="flex gap-2 items-center justify-center">
-                                <Link onClick={() => setOpenPopup(false)} className={`${pathname === "/barbeiros" ? "bg-white text-black" : "text-white"} text-center rounded-[3px] m-[2px] px-4 py-2 uppercase text-lg text-textTitle transition-all duration-300`} href="/">Barbeiros</Link>
+                                <Link onClick={() => setOpenPopup(false)} className={`${pathname === "/#barbeiros" ? "bg-white text-black" : "text-white"} font-bold text-center rounded-[3px] m-[2px] px-4 py-2 uppercase text-lg text-textTitle transition-all duration-300`} href="/#barbeiros">Barbeiros</Link>
                             </li>
                         </ul>
                     </nav>
