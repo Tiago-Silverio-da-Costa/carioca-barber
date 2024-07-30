@@ -57,7 +57,7 @@ export default function ReviewsSlider() {
             {servicesList.map((serv) => (
                 <Fragment key={serv.id}>
                     <SwiperSlide className="select-none">
-                        <p className="text-2xl tracking-tight max-w-96 text-start text-balck">&quot;{serv.text}&quot;</p>
+                        <p className="text-xl tracking-tight max-w-96 text-start text-balck">&quot;{serv.text}&quot;</p>
                         <span className="text-start w-full mt-8">{serv.clientName}</span>
                     </SwiperSlide>
                 </Fragment>
