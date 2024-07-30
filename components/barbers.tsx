@@ -23,7 +23,7 @@ export default function Barbers() {
                 <p className="text-sm tracking-tight leading-5 text-center max-w-2xl mt-8">Cada membro da nossa equipe está comprometido em proporcionar uma experiência excepcional, garantindo que você saia da nossa barbearia parecendo e se sentindo o melhor possível.</p>
                 <div className="flex flex-wrap gap-4 mt-16 ">
                     <div className="flex flex-col justify-between rounded-xl gap-8 bg-[#f0ede8] pb-0 p-8">
-                        <div className="flex items-center justify-between gap-8">
+                        <div className="flex items-start justify-between gap-8">
                             <div className="flex flex-col bg-white px-4 py-2 rounded-lg">
                                 <p className="text-lg font-medium tracking-tight leading-5">João Felipe</p>
                                 <span className="text-[#a3a3a4] font-medium text-sm tracking-tight leading-5">Barbeiro</span>
@@ -39,23 +39,15 @@ export default function Barbers() {
                                     <FaInstagram />
 
                                 </Link>
-                                <Link className="flex items-center gap-6 text-[#b1b1b1] text-2xl"
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    aria-label="Entre em contato com a Barbearia Carioca pelo Whatsapp"
-                                    href="https://www.instagram.com/barbearia.carioca/"
-                                >
-                                    <FaLinkedin />
-                                </Link>
                             </div>
                         </div>
                         <Image src="/barbers/1.png" alt="" width={200} height={200} />
                     </div>
 
                     <div className="flex flex-col justify-between rounded-xl gap-8 bg-[#f0ede8] pb-0 p-8">
-                        <div className="flex items-center justify-between gap-8">
+                        <div className="flex items-start justify-between gap-8">
                             <div className="flex flex-col bg-white px-4 py-2 rounded-lg">
-                                <p className="text-lg font-medium tracking-tight leading-5">Guilherme Ferreira</p>
+                                <p className="text-lg font-medium tracking-tight leading-5">Lucas Nunes</p>
                                 <span className="text-[#a3a3a4] font-medium text-sm tracking-tight leading-5">Barbeiro</span>
                             </div>
 
@@ -69,21 +61,13 @@ export default function Barbers() {
                                     <FaInstagram />
 
                                 </Link>
-                                <Link className="flex items-center gap-6 text-[#b1b1b1] text-2xl"
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    aria-label="Entre em contato com a Barbearia Carioca pelo Whatsapp"
-                                    href="https://www.instagram.com/barbearia.carioca/"
-                                >
-                                    <FaLinkedin />
-                                </Link>
                             </div>
                         </div>
                         <Image src="/barbers/2.png" alt="" width={200} height={200} />
                     </div>
 
                     <div className="flex flex-col justify-between rounded-xl gap-8 bg-[#f0ede8] pb-0 p-8">
-                        <div className="flex items-center justify-between gap-8">
+                        <div className="flex items-start justify-between gap-8">
                             <div className="flex flex-col bg-white px-4 py-2 rounded-lg">
                                 <p className="text-lg font-medium tracking-tight leading-5">Vitor Almeida</p>
                                 <span className="text-[#a3a3a4] font-medium text-sm tracking-tight leading-5">Barbeiro</span>
@@ -99,14 +83,6 @@ export default function Barbers() {
                                     <FaInstagram />
 
                                 </Link>
-                                <Link className="flex items-center gap-6 text-[#b1b1b1] text-2xl"
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    aria-label="Entre em contato com a Barbearia Carioca pelo Whatsapp"
-                                    href="https://www.instagram.com/barbearia.carioca/"
-                                >
-                                    <FaLinkedin />
-                                </Link>
                             </div>
                         </div>
                         <Image src="/barbers/3.png" alt="" width={200} height={200} />
@@ -121,7 +97,7 @@ export default function Barbers() {
                                 target="_blank"
                                 rel="noreferrer"
                                 aria-label="Entre em contato com a Barbearia Carioca pelo Whatsapp"
-                                href="https://api.whatsapp.com/send?phone=number"
+                                href="https://api.whatsapp.com/send?phone=5547999055144"
                             >
 
                                 Mande currículo

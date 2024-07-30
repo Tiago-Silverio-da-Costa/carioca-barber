@@ -39,7 +39,7 @@ export default function Home() {
                                 href="https://api.whatsapp.com/send?phone=number"
                             >
 
-                                Contato
+                                Agende agora
                             </Link>
                         </TextDecorator>
                     </div>

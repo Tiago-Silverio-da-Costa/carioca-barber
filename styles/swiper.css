@@ -7,18 +7,17 @@
   .swiper-slide {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: start;
+    justify-content: start;
     text-align: start;
   }
-  
+
   .swiper {
-    margin: 0 auto;
-    
-    width: 200px;
-    
+    width: 290px;
+    margin: 0;
+
     @media (min-width: 768px) {
-      width: 500px;
+      width: 800px;
       }
   }
   

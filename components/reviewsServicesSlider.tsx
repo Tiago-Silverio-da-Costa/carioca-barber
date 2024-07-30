@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css";
-import "@/styles/swiperText.css";
+import "@/styles/swiper.css";
 import { Fragment } from "react";
 
 
@@ -26,8 +26,8 @@ export default function ReviewsSlider() {
         },
         {
             id: 2,
-            text: "Melhor barbearia de todas!! Profissionais altamente capacitados.Trabalham com amor! Corto meu cabelo com o carioca a 20 anos",
-            clientName: "Xuxa vieira"
+            text: "Barbearia muito boa, com profissionais capacitados. O valor está na média das demais.",
+            clientName: "Bruno Passos"
         },
         {
             id: 3,
@@ -52,13 +52,12 @@ export default function ReviewsSlider() {
                 delay: 8000,
                 disableOnInteraction: false,
             }}
-            className="mySwiper"
         >
             {servicesList.map((serv) => (
                 <Fragment key={serv.id}>
                     <SwiperSlide className="select-none">
-                        <p className="text-xl tracking-tight max-w-96 text-start text-balck">&quot;{serv.text}&quot;</p>
-                        <span className="text-start w-full mt-8">{serv.clientName}</span>
+                        <p className="text-xl tracking-tight text-start text-balck w-full">&quot;{serv.text}&quot;</p>
+                        <span className="text-start w-full mt-8 font-bold">{serv.clientName}</span>
                     </SwiperSlide>
                 </Fragment>
             ))}

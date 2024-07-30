@@ -51,10 +51,10 @@ export default function About() {
                         </div>
 
                         <div className="flex flex-col gap-4 items-start">
-                            <p className={`${autogate.className} uppercase text-2xl font-bold text-start max-w-lg`}>(47) 3050-0785</p>
+                            <p className={`${autogate.className} uppercase text-2xl font-bold text-start max-w-lg`}>(47) 9 9905-5144</p>
                             <div className="flex flex-col">
-                                <span className="text-sm tracking-tight leading-5 text-start max-w-96">Segunda-Sexta: 8:00 - 20:00</span>
-                                <span className="text-sm tracking-tight leading-5 text-start max-w-96">Sábado: 8:00 - 17:00</span>
+                                <span className="text-sm tracking-tight leading-5 text-start max-w-96">Segunda-Sexta: 8:00 - 19:00</span>
+                                <span className="text-sm tracking-tight leading-5 text-start max-w-96">Sábado: 8:00 - 12:00</span>
                                 <span className="text-sm tracking-tight leading-5 text-start max-w-96">Domingo: FECHADO</span>
                             </div>
 

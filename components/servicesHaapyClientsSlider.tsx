@@ -15,46 +15,25 @@ interface ServicesProps {
     id: number;
 }
 
-export default function ServiceSlider() {
+export default function ServiceHappyClientsSlider() {
 
 
     const servicesList: ServicesProps[] = [
         {
             id: 2,
-            image: "/services/1.jpeg",
+            image: "/services/happyClients/1.jpeg",
         },
         {
             id: 10,
-            image: "/services/2.jpeg",
+            image: "/services/happyClients/2.jpeg",
         },
         {
             id: 11,
-            image: "/services/3.jpeg",
-        },
-        {
-            id: 12,
-            image: "/services/4.jpeg",
+            image: "/services/happyClients/3.jpeg",
         },
         {
             id: 14,
-            image: "/services/5.jpeg",
-        },
-
-        {
-            id: 17,
-            image: "/services/6.jpeg",
-        },
-        {
-            id: 18,
-            image: "/services/7.jpeg",
-        },
-        {
-            id: 19,
-            image: "/services/8.jpeg",
-        },
-        {
-            id: 20,
-            image: "/services/9.jpeg",
+            image: "/services/happyClients/4.jpeg",
         }
     ];
 
@@ -78,17 +57,16 @@ export default function ServiceSlider() {
                     slidesPerView: 2,
                     spaceBetween: 10
                 },
-                1200: {
+                960: {
                     slidesPerView: 3,
                     spaceBetween: 10
                 },
              }}
-            className="mySwiper"
         >
             {servicesList.map((serv) => (
                 <Fragment key={serv.id}>
                     <SwiperSlide className="select-none">
-                        <Image className="bg-white shadow-sm rounded-xl" src={serv.image} alt="haircuts" width={250} height={400} />
+                        <Image className="bg-white shadow-sm rounded-xl" src={serv.image} alt="Happy clients" width={250} height={400} />
                     </SwiperSlide>
                 </Fragment>
             ))}
