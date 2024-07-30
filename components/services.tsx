@@ -4,6 +4,7 @@ import ReviewsSlider from "./reviewsServicesSlider";
 import ServiceHappyClientsSlider from "./servicesHaapyClientsSlider";
 import { ReactNode } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const autogate = localFont({
     src: [
@@ -84,7 +85,7 @@ export default function Services() {
 
                 <div className="flex flex-col w-full mt-16 lg:mt-32">
                     <p className={`${autogate.className} uppercase text-3xl md:text-5xl font-bold text-center w-full lg:text-start`}>Nossos Serviços</p>
-                    <div className="flex gap-4 w-full mt-8">
+                    <div className="flex flex-col lg:flex-row gap-4 w-full mt-8">
                         <div className="flex justify-center flex-wrap gap-4 w-full max-w-[43rem]">
                             {servicesList.map((serv) => (
                                 <div key={serv.id} className="flex flex-col items-center bg-[#49403b] min-w-40 text-white px-4 py-6">
@@ -98,19 +99,31 @@ export default function Services() {
 
                             ))}
                         </div>
-                        <div className="md:flex hidden items-center justify-start bg-[#fda85b] flex-1 rounded-xl ">
+                        <div className="flex flex-col justify-center  items-center bg-[#fda85b] flex-1 rounded-xl px-8 py-4">
+                            {/* logo monocromática */}
+                            <p className="text-sm tracking-tight leading-5 text-start w-full">Não deixe de agendar um horário para garantir o seu atendimento. Estamos prontos para oferecer o melhor serviço a você!</p>
+                            <Link className="mt-8 text-center flex items-center justify-center gap-2 text-sm font-medium bg-[#49403b] text-white py-2 px-4 rounded-md w-full"
+                                target="_blank"
+                                rel="noreferrer"
+                                aria-label="Entre em contato com a Barbearia Carioca pelo Whatsapp"
+                                href="https://api.whatsapp.com/send?phone=number"
+                            >
+
+                                Agende agora!
+                            </Link>
                         </div>
                     </div>
 
 
                 </div>
                 <div className="flex flex-col gap-4 justify-between mt-16 lg:mt-32">
-                <h1 className={`${autogate.className} uppercase text-3xl md:text-5xl font-bold text-start max-w-lg`}> Nossas Avaliações</h1>
+                    <h1 className={`${autogate.className} uppercase text-3xl md:text-5xl font-bold text-start max-w-lg`}> Nossas Avaliações</h1>
                     <div className="flex items-center justify-start bg-[#fda85b] px-8 py-6 rounded-xl mt-8">
                         <ReviewsSlider />
                     </div>
                     <div className="flex gap-4 w-full">
                         <div className="md:flex hidden items-center justify-start bg-[#fda85b] flex-1 rounded-xl ">
+                            {/* logo monocromática */}
                         </div>
                         <ServiceHappyClientsSlider />
                     </div>

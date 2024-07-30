@@ -38,7 +38,7 @@ export default function Footer() {
                             href="https://api.whatsapp.com/send?phone=number"
                         >
 
-                            Reserve agora
+                            Agende agora!
                         </Link>
                     </div>
                 </div>
