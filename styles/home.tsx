@@ -8,12 +8,13 @@ export const Section = styled.section<{
     background-size: cover;
     background-position: 20% 50%; 
     position: relative;
-box-shadow: 44px -6px 131px 112px rgba(0,0,0,0.75) inset;
--webkit-box-shadow: 44px -6px 131px 112px rgba(0,0,0,0.75) inset;
--moz-box-shadow: 44px -6px 131px 112px rgba(0,0,0,0.75) inset;
+
 
     @media (min-width: 768px) {
-    background-position: center;
+        box-shadow: 0px -49px 53px 146px rgba(0,0,0,0.75) inset;
+        -webkit-box-shadow: 0px -49px 53px 146px rgba(0,0,0,0.75) inset;
+        -moz-box-shadow: 0px -49px 53px 146px rgba(0,0,0,0.75) inset;
+        background-position: center;
     }
 `;
 
@@ -24,7 +25,6 @@ export const TextDecorator = styled.div`
     -moz-box-shadow: -1px 1px 124px 91px rgba(0,0,0,0.75) inset;
     display: flex;
     flex-direction: column;
-    border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 0.75rem;
     padding: 3rem 2rem;
     width: fit-content;

@@ -30,7 +30,7 @@ export default function Barbers() {
                             </div>
 
                             <div className="flex flex-col gap-2 text-[#a3a3a4]">
-                                <Link className="flex items-center gap-6 text-[#b1b1b1] text-2xl"
+                                <Link className="flex items-center gap-6 text-[#b1b1b1] hover:text-[#fab93b] transition-all duration-300 text-2xl"
                                     target="_blank"
                                     rel="noreferrer"
                                     aria-label="Entre em contato com a Barbearia Carioca pelo Whatsapp"
@@ -52,7 +52,7 @@ export default function Barbers() {
                             </div>
 
                             <div className="flex flex-col gap-2 text-[#a3a3a4]">
-                                <Link className="flex items-center gap-6 text-[#b1b1b1] text-2xl"
+                                <Link className="flex items-center gap-6 text-[#b1b1b1] hover:text-[#fab93b] transition-all duration-300 text-2xl"
                                     target="_blank"
                                     rel="noreferrer"
                                     aria-label="Entre em contato com a Barbearia Carioca pelo Whatsapp"
@@ -74,7 +74,7 @@ export default function Barbers() {
                             </div>
 
                             <div className="flex flex-col gap-2 text-[#a3a3a4]">
-                                <Link className="flex items-center gap-6 text-[#b1b1b1] text-2xl"
+                                <Link className="flex items-center gap-6 text-[#b1b1b1] hover:text-[#fab93b] transition-all duration-300 text-2xl"
                                     target="_blank"
                                     rel="noreferrer"
                                     aria-label="Entre em contato com a Barbearia Carioca pelo Whatsapp"
@@ -93,7 +93,7 @@ export default function Barbers() {
                             <p className="text-lg font-medium tracking-tight leading-5 max-w-40 text-center">
                                 Gostaria de entrar no nosso time?
                             </p>
-                            <Link className="text-center flex w-full items-center justify-center gap-2 text-sm font-medium bg-[#fda85b] text-black py-2 px-4 rounded-md"
+                            <Link className="text-center flex w-full items-center justify-center gap-2 text-sm font-medium bg-[#fab93b] text-black py-2 px-4 rounded-md"
                                 target="_blank"
                                 rel="noreferrer"
                                 aria-label="Entre em contato com a Barbearia Carioca pelo Whatsapp"
