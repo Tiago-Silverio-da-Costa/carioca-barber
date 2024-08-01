@@ -42,7 +42,7 @@ export default function Services() {
         },
         {
             id: 5,
-            Service: "Selagem",
+            Service: "Máscara",
             icon: <Image src="/services/mustache1.svg" alt="" width={50} height={50} />
         },
         {
@@ -62,7 +62,7 @@ export default function Services() {
         },
         {
             id: 9,
-            Service: "Navalha",
+            Service: "Sobrancelha",
             icon: <Image src="/services/mustache1.svg" alt="" width={50} height={50} />
         }
     ];
