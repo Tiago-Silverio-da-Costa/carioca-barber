@@ -14,7 +14,7 @@ export default function Header() {
 
     return (
         <header className="flex items-center justify-between max-w-6xl mx-auto w-5/6 py-8">
-            <Image src="/commom/logo.svg" alt="" width={200} height={200} />
+            <Image src="/commom/logo.png" alt="" width={200} height={200} />
             <nav className="items-center gap-4 border border-white hidden md:flex rounded-md p-1">
                 <ul className="group">
                     <li className="flex flex-col items-center">

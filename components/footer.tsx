@@ -9,7 +9,7 @@ export default function Footer() {
             <div className="max-w-6xl mx-auto w-5/6 pt-20">
                 <div className="flex flex-col sm:flex-row gap-6 items-start justify-between">
                     <div className="flex flex-col items-start gap-4">
-                        <Image src="/commom/logo.svg" alt="" width={200} height={200} />
+                        <Image src="/commom/logo.png" alt="" width={200} height={200} />
                         <div className="flex flex-col gap-2 text-[#b1b1b1] text-xs">
                             <span className="">Praça da Bíblia - Centro, Camboriú - SC</span>
                             <div className="flex gap-2 items-center">

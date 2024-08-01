@@ -98,7 +98,7 @@ export default function Services() {
                             ))}
                         </div>
                         <div className="flex flex-col justify-center items-center bg-[#fab93b] flex-1 rounded-xl px-8 py-4">
-                            <Image src="/commom/logo-black.svg" alt="" width={300} height={100} />
+                            <Image src="/commom/logo-black.png" alt="" width={300} height={100} />
                             <p className="text-sm tracking-tight leading-5 text-start w-full mt-4 md:mt-8">Não deixe de agendar um horário para garantir o seu atendimento. Estamos prontos para oferecer o melhor serviço a você!</p>
                             <Link className="mt-8 text-center flex items-center justify-center gap-2 text-sm font-medium bg-[#49403b] text-white py-2 px-4 rounded-md w-full"
                                 target="_blank"
@@ -122,7 +122,7 @@ export default function Services() {
                         </div>
                         <div className="flex gap-4 w-full">
                             <div className="md:flex hidden items-center justify-center bg-[#fab93b] flex-1 rounded-xl ">
-                                <Image src="/commom/logo-black.svg" alt="" width={200} height={100} />
+                                <Image src="/commom/logo-black.png" alt="" width={200} height={100} />
                             </div>
                             <ServiceHappyClientsSlider />
                         </div>
