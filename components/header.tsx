@@ -78,10 +78,10 @@ export default function Header() {
                                 <Link onClick={() => setOpenPopup(false)} className={`${pathname === "/servicos" ? "bg-white text-black" : "text-white"} font-bold text-center rounded-[3px] px-4 py-2 uppercase text-lg text-textTitle transition-all duration-300`} href="/servicos">Serviços</Link>
                             </li>
                             <li className="flex gap-2 items-center justify-center">
-                                <Link onClick={() => setOpenPopup(false)} className={`${pathname === "/#sobre" ? "bg-white text-black" : "text-white"} font-bold text-center rounded-[3px] px-4 py-2 uppercase text-lg text-textTitle transition-all duration-300`} href="/#sobre">Sobre</Link>
+                                <Link onClick={() => setOpenPopup(false)} className={`${pathname === "/sobre" ? "bg-white text-black" : "text-white"} font-bold text-center rounded-[3px] px-4 py-2 uppercase text-lg text-textTitle transition-all duration-300`} href="/sobre">Sobre</Link>
                             </li>
                             <li className="flex gap-2 items-center justify-center">
-                                <Link onClick={() => setOpenPopup(false)} className={`${pathname === "/#barbeiros" ? "bg-white text-black" : "text-white"} font-bold text-center rounded-[3px] px-4 py-2 uppercase text-lg text-textTitle transition-all duration-300`} href="/#barbeiros">Barbeiros</Link>
+                                <Link onClick={() => setOpenPopup(false)} className={`${pathname === "/barbeiros" ? "bg-white text-black" : "text-white"} font-bold text-center rounded-[3px] px-4 py-2 uppercase text-lg text-textTitle transition-all duration-300`} href="/barbeiros">Barbeiros</Link>
                             </li>
                         </ul>
                     </nav>
