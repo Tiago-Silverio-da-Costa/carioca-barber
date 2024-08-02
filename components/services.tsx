@@ -100,7 +100,7 @@ export default function Services() {
                         <div className="flex flex-col justify-center items-center bg-[#fab93b] flex-1 rounded-xl px-8 py-4">
                             <Image src="/commom/logo-black.png" alt="" width={300} height={100} />
                             <p className="text-sm tracking-tight leading-5 text-start w-full mt-4 md:mt-8">Não deixe de agendar um horário para garantir o seu atendimento. Estamos prontos para oferecer o melhor serviço a você!</p>
-                            <Link className="mt-8 text-center flex items-center justify-center gap-2 text-sm font-medium bg-[#49403b] text-white py-2 px-4 rounded-md w-full"
+                            <Link className="hover:scale-110 transition-all duration-300 mt-8 text-center flex items-center justify-center gap-2 text-sm font-medium bg-[#49403b] text-white py-2 px-4 rounded-md w-full"
                                 target="_blank"
                                 rel="noreferrer"
                                 aria-label="Entre em contato com a Barbearia Carioca pelo Whatsapp"

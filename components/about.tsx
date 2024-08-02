@@ -29,7 +29,7 @@ export default function About() {
                         <br />
                         Estamos localizados em Camboriú, em frente à Praça da Bíblia. Venha nos visitar, aproveite para tomar um café, beber aquela geladinha ou apenas conversar em nosso ambiente aconchegante.
                     </p>
-                    <Link className="mt-8 text-center flex w-full items-center justify-center gap-2 text-sm font-medium bg-[#fab93b] text-black py-2 px-4 rounded-md"
+                    <Link className="hover:scale-110 transition-all duration-300 mt-8 text-center flex w-full items-center justify-center gap-2 text-sm font-medium bg-[#fab93b] text-black py-2 px-4 rounded-md"
                         target="_blank"
                         rel="noreferrer"
                         aria-label="Entre em contato com a Barbearia Carioca pelo Whatsapp"

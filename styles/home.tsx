@@ -6,16 +6,19 @@ export const Section = styled.section<{
 }>`
     background-image: url(${({ $bg }) => $bg});
     background-size: cover;
-    background-position: 20% 50%; 
+    background-position: center;
     position: relative;
+    box-shadow: 0px -164px 50px 132px rgba(0,0,0,0.75) inset;
+    -webkit-box-shadow: 0px -164px 50px 132px rgba(0,0,0,0.75) inset;
+    -moz-box-shadow: 0px -164px 50px 132px rgba(0,0,0,0.75) inset;
 
-
-    @media (min-width: 768px) {
+        @media (min-width: 768px) {
         box-shadow: 0px -49px 53px 146px rgba(0,0,0,0.75) inset;
         -webkit-box-shadow: 0px -49px 53px 146px rgba(0,0,0,0.75) inset;
         -moz-box-shadow: 0px -49px 53px 146px rgba(0,0,0,0.75) inset;
-        background-position: center;
+      
     }
+
 `;
 
 

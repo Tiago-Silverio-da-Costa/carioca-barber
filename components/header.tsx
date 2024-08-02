@@ -37,14 +37,14 @@ export default function Header() {
                     </li>
                 </ul>
             </nav>
-            <Link className="hidden md:flex items-center gap-2 text-sm font-medium text-white border border-white hover:bg-white hover:text-black py-2 px-4 rounded-md w-fit transition-all duration-300"
+            <Link className="hidden md:flex items-center gap-2 text-sm font-medium text-white border border-white hover:bg-white hover:text-black py-3 px-6 rounded-md w-fit transition-all duration-300"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="Entre em contato com a Barbearia Carioca pelo Whatsapp"
                 href="https://api.whatsapp.com/send?phone=5547999055144"
             >
 
-                Contato
+                Agende
             </Link>
 
             {/* mobile */}

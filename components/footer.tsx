@@ -23,7 +23,7 @@ export default function Footer() {
                                 </Link>
                             <div className="flex gap-2 items-center">
 
-                                <Link className="flex items-center gap-6 text-[#fab93b] text-lg hover:text-white transition-all duration-500"
+                                <Link className="hover:scale-110 flex items-center gap-6 text-[#fab93b] text-lg hover:text-white transition-all duration-500"
                                     target="_blank"
                                     rel="noreferrer"
                                     aria-label="Entre em contato com a Barbearia Carioca pelo Whatsapp"
@@ -32,7 +32,7 @@ export default function Footer() {
                                     <FaFacebookF />
 
                                 </Link>
-                                <Link className="flex items-center gap-6 text-[#fab93b] text-lg hover:text-white transition-all duration-500"
+                                <Link className="hover:scale-110 flex items-center gap-6 text-[#fab93b] text-lg hover:text-white transition-all duration-500"
                                     target="_blank"
                                     rel="noreferrer"
                                     aria-label="Entre em contato com a Barbearia Carioca pelo Whatsapp"
@@ -41,7 +41,7 @@ export default function Footer() {
                                     <FaInstagram />
 
                                 </Link>
-                                <Link className="flex items-center gap-6 text-[#fab93b] text-lg hover:text-white transition-all duration-500"
+                                <Link className="hover:scale-110 flex items-center gap-6 text-[#fab93b] text-lg hover:text-white transition-all duration-500"
                                     target="_blank"
                                     rel="noreferrer"
                                     aria-label="Entre em contato com a Barbearia Carioca pelo Whatsapp"
@@ -57,10 +57,10 @@ export default function Footer() {
                     <div className="flex flex-col items-start sm:items-center gap-4">
                         <p className="text-xl uppercase font-bold">Menu</p>
                         <div className="flex flex-col text-[#b1b1b1] text-xs">
-                            <Link className={`rounded-[3px] m-[2px] text-sm hover:text-white transition-all duration-500`} href="/">Ínicio</Link>
-                            <Link className={`rounded-[3px] m-[2px] text-sm hover:text-white transition-all duration-500`} href="/servicos">Serviços</Link>
-                            <Link className={`rounded-[3px] m-[2px] text-sm hover:text-white transition-all duration-500`} href="/sobre">Sobre</Link>
-                            <Link className={`rounded-[3px] m-[2px] text-sm hover:text-white transition-all duration-500`} href="/barbeiros">Barbeiros</Link>
+                            <Link className={`hover:scale-110 rounded-[3px] m-[2px] text-sm hover:text-white transition-all duration-500`} href="/">Ínicio</Link>
+                            <Link className={`hover:scale-110 rounded-[3px] m-[2px] text-sm hover:text-white transition-all duration-500`} href="/servicos">Serviços</Link>
+                            <Link className={`hover:scale-110 rounded-[3px] m-[2px] text-sm hover:text-white transition-all duration-500`} href="/sobre">Sobre</Link>
+                            <Link className={`hover:scale-110 rounded-[3px] m-[2px] text-sm hover:text-white transition-all duration-500`} href="/barbeiros">Barbeiros</Link>
                         </div>
                     </div>
 
@@ -71,7 +71,7 @@ export default function Footer() {
                             <span className="text-sm tracking-tight leading-5 text-start max-w-96">Sábado: 8:00 - 17:00</span>
                             <span className="text-sm tracking-tight leading-5 text-start max-w-96">Domingo: FECHADO</span>
                         </div>
-                        <Link className="mt-8 text-center flex w-fit items-center justify-center gap-2 text-sm font-medium bg-[#fab93b] text-black py-2 px-4 rounded-md"
+                        <Link className="hover:scale-110 transition-all duration-300 mt-8 text-center flex w-fit items-center justify-center gap-2 text-sm font-medium bg-[#fab93b] text-black py-2 px-4 rounded-md"
                             target="_blank"
                             rel="noreferrer"
                             aria-label="Entre em contato com a Barbearia Carioca pelo Whatsapp"
