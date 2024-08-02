@@ -57,20 +57,20 @@ export default function Header() {
             >
                 <ImMenu />
             </button>
-
+      
             {
                 openPopup && (
-                    <nav className="md:hidden fixed top-0 left-0 w-full h-full bg-black z-50 flex flex-col items-center justify-center">
+                    <nav className="md:hidden fixed top-0 left-0  w-screen h-screen bg-black z-[999] flex flex-col items-center justify-center">
                         <button
                             aria-label="close menu"
                             type="button"
-                            className="absolute top-4 right-4 text-textOpacity px-4 py-2 font-bold text-lg hover:text-defaultText cursor-pointer"
+                            className="absolute top-4 right-4  px-4 py-2 font-bold text-lg cursor-pointer"
                             onClick={() => setOpenPopup(false)}
                         >
                             <IoMdClose />
                         </button>
                         <ul className="flex flex-col items-center gap-4 mt-8">
-                            <Image src="/commom/logo.svg" alt="" width={150} height={150} />
+                            <Image src="/commom/logo.png" alt="" width={150} height={150} />
                             <li className="flex gap-2 items-center justify-center mt-4">
                                 <Link onClick={() => setOpenPopup(false)} className={`${pathname === "/" ? "bg-white text-black" : "text-white"} font-bold text-center rounded-[3px] px-4 py-2 uppercase text-lg text-textTitle transition-all duration-300`} href="/">Ínicio</Link>
                             </li>
