@@ -121,7 +121,7 @@ export default function Services() {
                             <ReviewsSlider />
                         </div>
                         <div className="flex gap-4 w-full">
-                            <div className="md:flex hidden items-center justify-center bg-[#fab93b] flex-1 rounded-xl ">
+                            <div className="md:flex hidden items-center justify-center bg-[#fab93b] flex-1 px-2 rounded-xl ">
                                 <Image src="/commom/logo-black.png" alt="" width={200} height={100} />
                             </div>
                             <ServiceHappyClientsSlider />

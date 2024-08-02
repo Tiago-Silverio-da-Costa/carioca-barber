@@ -12,13 +12,18 @@ export default function Footer() {
                         <Image src="/commom/logo.png" alt="" width={200} height={200} />
                         <div className="flex flex-col gap-2 text-[#b1b1b1] text-xs">
                             <span className="">Praça da Bíblia - Centro, Camboriú - SC</span>
-                            <div className="flex gap-2 items-center">
-                                <FaWhatsapp className="text-[#fab93b] text-lg" />
-                                <span>(47) 9 9905-5144</span>
-                            </div>
+                                <Link className="group flex gap-2 items-center"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    aria-label="Entre em contato com a Barbearia Carioca pelo Whatsapp"
+                                    href="https://api.whatsapp.com/send?phone=5547999055144"
+                                >
+                                    <FaWhatsapp className="group-hover:text-white duration-500 transition-all text-[#fab93b] text-lg" />
+                                    <span className="group-hover:text-white duration-500 transition-all">(47) 9 9905-5144</span>
+                                </Link>
                             <div className="flex gap-2 items-center">
 
-                                <Link className="flex items-center gap-6 text-[#fab93b] text-lg"
+                                <Link className="flex items-center gap-6 text-[#fab93b] text-lg hover:text-white transition-all duration-500"
                                     target="_blank"
                                     rel="noreferrer"
                                     aria-label="Entre em contato com a Barbearia Carioca pelo Whatsapp"
@@ -27,7 +32,7 @@ export default function Footer() {
                                     <FaFacebookF />
 
                                 </Link>
-                                <Link className="flex items-center gap-6 text-[#fab93b] text-lg"
+                                <Link className="flex items-center gap-6 text-[#fab93b] text-lg hover:text-white transition-all duration-500"
                                     target="_blank"
                                     rel="noreferrer"
                                     aria-label="Entre em contato com a Barbearia Carioca pelo Whatsapp"
@@ -36,7 +41,7 @@ export default function Footer() {
                                     <FaInstagram />
 
                                 </Link>
-                                <Link className="flex items-center gap-6 text-[#fab93b] text-lg"
+                                <Link className="flex items-center gap-6 text-[#fab93b] text-lg hover:text-white transition-all duration-500"
                                     target="_blank"
                                     rel="noreferrer"
                                     aria-label="Entre em contato com a Barbearia Carioca pelo Whatsapp"
@@ -52,10 +57,10 @@ export default function Footer() {
                     <div className="flex flex-col items-start sm:items-center gap-4">
                         <p className="text-xl uppercase font-bold">Menu</p>
                         <div className="flex flex-col text-[#b1b1b1] text-xs">
-                            <Link className={`rounded-[3px] m-[2px] text-sm transition-all duration-300`} href="/">Ínicio</Link>
-                            <Link className={`rounded-[3px] m-[2px] text-sm transition-all duration-300`} href="/servicos">Serviços</Link>
-                            <Link className={`rounded-[3px] m-[2px] text-sm transition-all duration-300`} href="/sobre">Sobre</Link>
-                            <Link className={`rounded-[3px] m-[2px] text-sm transition-all duration-300`} href="/barbeiros">Barbeiros</Link>
+                            <Link className={`rounded-[3px] m-[2px] text-sm hover:text-white transition-all duration-500`} href="/">Ínicio</Link>
+                            <Link className={`rounded-[3px] m-[2px] text-sm hover:text-white transition-all duration-500`} href="/servicos">Serviços</Link>
+                            <Link className={`rounded-[3px] m-[2px] text-sm hover:text-white transition-all duration-500`} href="/sobre">Sobre</Link>
+                            <Link className={`rounded-[3px] m-[2px] text-sm hover:text-white transition-all duration-500`} href="/barbeiros">Barbeiros</Link>
                         </div>
                     </div>
 

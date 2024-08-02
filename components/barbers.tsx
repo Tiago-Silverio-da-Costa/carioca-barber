@@ -21,7 +21,7 @@ export default function Barbers() {
             <div className="flex flex-col items-center max-w-6xl mx-auto w-5/6 py-32">
                 <h1 className={`${autogate.className} uppercase text-3xl md:text-5xl font-bold text-end max-w-lg`}>Barbeiros</h1>
                 <p className="text-sm tracking-tight leading-5 text-center max-w-2xl mt-8">Cada membro da nossa equipe está comprometido em proporcionar uma experiência excepcional, garantindo que você saia da nossa barbearia parecendo e se sentindo o melhor possível.</p>
-                <div className="flex flex-wrap gap-4 mt-16 ">
+                <div className="flex justify-center md:justify-start flex-wrap gap-4 mt-16 ">
                     <div className="flex flex-col justify-between rounded-xl gap-8 bg-[#f0ede8] pb-0 p-8">
                         <div className="flex items-start justify-between gap-8">
                             <div className="flex flex-col bg-white px-4 py-2 rounded-lg">
