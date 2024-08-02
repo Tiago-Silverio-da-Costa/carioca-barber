@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 		siteName: "Conheça a melhor barbearia de Camboriú – Barbearia Carioca",
 		images: [
 			{
-				url: "https://something.com.br/something-banner-logo.png",
+				url: "https://something.com.br/banner.png",
 				width: 1280,
 				height: 720,
 			}
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
 			"Conheça a melhor barbearia de Camboriú – Barbearia Carioca",
 		description:
 			"Cortes de cabelo masculinos e infantis com agendamento online em Camboriú! Agende seu horário.",
-		images: ["https://something.com.br/something-twitter-banner.png"],
+		images: ["https://something.com.br/banner.png"],
 	},
 };
 

@@ -9,18 +9,20 @@ export default function Footer() {
             <div className="max-w-6xl mx-auto w-5/6 pt-20">
                 <div className="flex flex-col sm:flex-row gap-6 items-start justify-between">
                     <div className="flex flex-col items-start gap-4">
-                        <Image src="/commom/logo.png" alt="" width={200} height={200} />
+                        <Link href="/">
+                            <Image src="/commom/logo.png" alt="" width={200} height={200} />
+                        </Link>
                         <div className="flex flex-col gap-2 text-[#b1b1b1] text-xs">
                             <span className="">Praça da Bíblia - Centro, Camboriú - SC</span>
-                                <Link className="group flex gap-2 items-center"
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    aria-label="Entre em contato com a Barbearia Carioca pelo Whatsapp"
-                                    href="https://api.whatsapp.com/send?phone=5547999055144"
-                                >
-                                    <FaWhatsapp className="group-hover:text-white duration-500 transition-all text-[#fab93b] text-lg" />
-                                    <span className="group-hover:text-white duration-500 transition-all">(47) 9 9905-5144</span>
-                                </Link>
+                            <Link className="group flex gap-2 items-center"
+                                target="_blank"
+                                rel="noreferrer"
+                                aria-label="Entre em contato com a Barbearia Carioca pelo Whatsapp"
+                                href="https://api.whatsapp.com/send?phone=5547999055144"
+                            >
+                                <FaWhatsapp className="group-hover:text-white duration-500 transition-all text-[#fab93b] text-lg" />
+                                <span className="group-hover:text-white duration-500 transition-all">(47) 9 9905-5144</span>
+                            </Link>
                             <div className="flex gap-2 items-center">
 
                                 <Link className="hover:scale-110 flex items-center gap-6 text-[#fab93b] text-lg hover:text-white transition-all duration-500"
@@ -71,7 +73,7 @@ export default function Footer() {
                             <span className="text-sm tracking-tight leading-5 text-start max-w-96">Sábado: 8:00 - 17:00</span>
                             <span className="text-sm tracking-tight leading-5 text-start max-w-96">Domingo: FECHADO</span>
                         </div>
-                        <Link className="hover:scale-110 transition-all duration-300 mt-8 text-center flex w-fit items-center justify-center gap-2 text-sm font-medium bg-[#fab93b] text-black py-2 px-4 rounded-md"
+                        <Link className="hover:scale-110 transition-all duration-300 text-center flex w-fit items-center justify-center gap-2 text-sm font-medium bg-[#fab93b] text-black py-2 px-4 rounded-md"
                             target="_blank"
                             rel="noreferrer"
                             aria-label="Entre em contato com a Barbearia Carioca pelo Whatsapp"
