@@ -12,7 +12,7 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
 	title:
 		"Conheça a melhor barbearia de Camboriú – Barbearia Carioca",
-	metadataBase: new URL("https://something.com.br"),
+	metadataBase: new URL("https://carioca-barber.vercel.app/"),
 	description:
 		"Cortes de cabelo masculinos e infantis com agendamento online em Camboriú! Agende seu horário.",
 	keywords: ["barbearia em Camboriu", "barbearia Camboriu", "barbearia carioca Camboriu", "corte de cabelo masculino Camboriu", "corte de cabelo masculino barato Camboriú", "barbearia infantil Centro Camboriú", "corte de cabelo infantil Camboriu", "agendamento online barbearia", "agendamento online corte de cabelo", "barbeiro profissional", "melhor barbearia Camboriu", "barbearia infantil Camboriu", "barba e cabelo Camboriu"],
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 		siteName: "Conheça a melhor barbearia de Camboriú – Barbearia Carioca",
 		images: [
 			{
-				url: "https://something.com.br/banner.png",
+				url: "https://carioca-barber.vercel.app/banner.png",
 				width: 1280,
 				height: 720,
 			}
@@ -41,23 +41,23 @@ export const metadata: Metadata = {
 			"Conheça a melhor barbearia de Camboriú – Barbearia Carioca",
 		description:
 			"Cortes de cabelo masculinos e infantis com agendamento online em Camboriú! Agende seu horário.",
-		images: ["https://something.com.br/banner.png"],
+		images: ["https://carioca-barber.vercel.app/banner.png"],
 	},
 };
 
 
 export default function RootLayout({
-  children,
+	children,
 }: Readonly<{
-  children: React.ReactNode;
+	children: React.ReactNode;
 }>) {
-  return (
-    <html lang="en">
-      <body className={inter.className}>
-        <StyledComponentsRegistry>
-          {children}
-        </StyledComponentsRegistry>
-        </body>
-    </html>
-  );
+	return (
+		<html lang="en">
+			<body className={inter.className}>
+				<StyledComponentsRegistry>
+					{children}
+				</StyledComponentsRegistry>
+			</body>
+		</html>
+	);
 }
