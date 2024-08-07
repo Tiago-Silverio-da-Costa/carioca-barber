@@ -15,7 +15,7 @@ export default function Header() {
     return (
         <header className="flex items-center justify-between max-w-6xl mx-auto w-5/6 py-8">
             <Link href="/">
-                <Image src="/commom/logo.png" alt="" width={200} height={200} />
+                <Image src="/commom/logo.png" alt="Logo da Barbearia Carioca Camboriú" width={200} height={200} />
             </Link>
             <nav className="items-center gap-4 border border-white hidden md:flex rounded-md p-1">
                 <ul className="group">
@@ -73,7 +73,7 @@ export default function Header() {
                         </button>
                         <ul className="flex flex-col items-center gap-4 mt-8">
                             <Link href="/">
-                                <Image src="/commom/logo.png" alt="" width={150} height={150} />
+                                <Image src="/commom/logo.png" alt="Logo da Barbearia Carioca Camboriú" width={150} height={150} />
                             </Link>
                             <li className="flex gap-2 items-center justify-center mt-4">
                                 <Link onClick={() => setOpenPopup(false)} className={`${pathname === "/" ? "bg-white text-black" : "text-white"} font-bold text-center rounded-[3px] px-4 py-2 uppercase text-lg text-textTitle transition-all duration-300`} href="/">Ínicio</Link>

@@ -10,7 +10,7 @@ export default function Footer() {
                 <div className="flex flex-col sm:flex-row gap-6 items-start justify-between">
                     <div className="flex flex-col items-start gap-4">
                         <Link href="/">
-                            <Image src="/commom/logo.png" alt="" width={200} height={200} />
+                            <Image src="/commom/logo.png" alt="Logo do Barbearia Carioca Camboriú" width={200} height={200} />
                         </Link>
                         <div className="flex flex-col gap-2 text-[#b1b1b1] text-xs">
                             <span className="">Praça da Bíblia - Centro, Camboriú - SC</span>

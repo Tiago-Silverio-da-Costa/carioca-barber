@@ -99,15 +99,15 @@ export default function ReviewsSlider() {
                 <Fragment key={serv.id}>
                     <SwiperSlide className="select-none">
                         <div className="flex items-center gap-4">
-                            <Image src={serv.clientImage} alt="" width={35} height={50} />
+                            <Image src={serv.clientImage} alt="Clientes Satifeitos da Barbearia Carioca Camboriú" width={35} height={50} />
                             <p className="text-sm tracking-tight text-start text-balck w-full">{serv.clientName}</p>
                         </div>
                         <div className="flex items-center gap-1 mt-2">
-                            <Image src="/services/star.svg" alt="" width={25} height={50} />
-                            <Image src="/services/star.svg" alt="" width={25} height={50} />
-                            <Image src="/services/star.svg" alt="" width={25} height={50} />
-                            <Image src="/services/star.svg" alt="" width={25} height={50} />
-                            <Image src="/services/star.svg" alt="" width={25} height={50} />
+                            <Image src="/services/star.svg" alt="Nota máxima para a Barbearia Carioca Camboriú" width={25} height={50} />
+                            <Image src="/services/star.svg" alt="Nota máxima para a Barbearia Carioca Camboriú" width={25} height={50} />
+                            <Image src="/services/star.svg" alt="Nota máxima para a Barbearia Carioca Camboriú" width={25} height={50} />
+                            <Image src="/services/star.svg" alt="Nota máxima para a Barbearia Carioca Camboriú" width={25} height={50} />
+                            <Image src="/services/star.svg" alt="Nota máxima para a Barbearia Carioca Camboriú" width={25} height={50} />
                         </div>
                         <p className="text-xl tracking-tight text-start text-balck w-full mt-8">&quot;{serv.text}&quot;</p>
                     </SwiperSlide>

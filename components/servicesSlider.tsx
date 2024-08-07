@@ -88,7 +88,7 @@ export default function ServiceSlider() {
             {servicesList.map((serv) => (
                 <Fragment key={serv.id}>
                     <SwiperSlide className="select-none">
-                        <Image className="bg-white shadow-sm rounded-xl" src={serv.image} alt="haircuts" width={250} height={400} />
+                        <Image className="bg-white shadow-sm rounded-xl" src={serv.image} alt="Cortes de Clientes na Barbearia Carioca Camboriú" width={250} height={400} />
                     </SwiperSlide>
                 </Fragment>
             ))}

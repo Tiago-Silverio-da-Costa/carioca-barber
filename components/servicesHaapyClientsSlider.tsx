@@ -66,7 +66,7 @@ export default function ServiceHappyClientsSlider() {
             {servicesList.map((serv) => (
                 <Fragment key={serv.id}>
                     <SwiperSlide className="select-none">
-                        <Image className="bg-white shadow-sm rounded-xl" src={serv.image} alt="Happy clients" width={250} height={400} />
+                        <Image className="bg-white shadow-sm rounded-xl" src={serv.image} alt="Cliente Satifeito na Barbearia Carioca Camboriú" width={250} height={400} />
                     </SwiperSlide>
                 </Fragment>
             ))}

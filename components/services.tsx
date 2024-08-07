@@ -28,42 +28,42 @@ export default function Services() {
         {
             id: 1,
             Service: "Corte",
-            icon: <Image src="/services/mustache1.svg" alt="" width={50} height={50} />
+            icon: <Image src="/services/mustache1.svg" alt="Corte na Barbearia Carioca Camboriú" width={50} height={50} />
         },
         {
             id: 2,
             Service: "Barba",
-            icon: <Image src="/services/mustache2.svg" alt="" width={50} height={50} />
+            icon: <Image src="/services/mustache2.svg" alt="Barba na Barbearia Carioca Camboriú" width={50} height={50} />
         },
         {
             id: 3,
             Service: "Hidratação",
-            icon: <Image src="/services/mustache1.svg" alt="" width={50} height={50} />
+            icon: <Image src="/services/mustache1.svg" alt="Hidratação na Barbearia Carioca Camboriú" width={50} height={50} />
         },
         {
             id: 5,
             Service: "Máscara",
-            icon: <Image src="/services/mustache1.svg" alt="" width={50} height={50} />
+            icon: <Image src="/services/mustache1.svg" alt="Máscara na Barbearia Carioca Camboriú" width={50} height={50} />
         },
         {
             id: 6,
             Service: "Luzes",
-            icon: <Image src="/services/mustache2.svg" alt="" width={50} height={50} />
+            icon: <Image src="/services/mustache2.svg" alt="Luzes na Barbearia Carioca Camboriú" width={50} height={50} />
         },
         {
             id: 7,
             Service: "Tintura",
-            icon: <Image src="/services/mustache1.svg" alt="" width={50} height={50} />
+            icon: <Image src="/services/mustache1.svg" alt="Tintura na Barbearia Carioca Camboriú" width={50} height={50} />
         },
         {
             id: 8,
             Service: "Pezinho",
-            icon: <Image src="/services/mustache2.svg" alt="" width={50} height={50} />
+            icon: <Image src="/services/mustache2.svg" alt="Pezinho na Barbearia Carioca Camboriú" width={50} height={50} />
         },
         {
             id: 9,
             Service: "Sobrancelha",
-            icon: <Image src="/services/mustache1.svg" alt="" width={50} height={50} />
+            icon: <Image src="/services/mustache1.svg" alt="Sobrancelha na Barbearia Carioca Camboriú" width={50} height={50} />
         }
     ];
 
@@ -98,7 +98,7 @@ export default function Services() {
                             ))}
                         </div>
                         <div className="flex flex-col justify-center items-center bg-[#fab93b] flex-1 rounded-xl px-8 py-4">
-                            <Image src="/commom/logo-black.png" alt="" width={300} height={100} />
+                            <Image src="/commom/logo-black.png" alt="Logo da Barbearia Carioca Camboriú" width={300} height={100} />
                             <p className="text-sm tracking-tight leading-5 text-start w-full mt-4 md:mt-8">Não deixe de agendar um horário para garantir o seu atendimento. Estamos prontos para oferecer o melhor serviço a você!</p>
                             <Link className="hover:scale-110 transition-all duration-300 mt-8 text-center flex items-center justify-center gap-2 text-sm font-medium bg-[#49403b] text-white py-2 px-4 rounded-md w-full"
                                 target="_blank"
@@ -122,7 +122,7 @@ export default function Services() {
                         </div>
                         <div className="flex gap-4 w-full">
                             <div className="md:flex hidden items-center justify-center bg-[#fab93b] flex-1 px-2 rounded-xl ">
-                                <Image src="/commom/logo-black.png" alt="" width={200} height={100} />
+                                <Image src="/commom/logo-black.png" alt="Logo da Barbearia Carioca Camboriú" width={200} height={100} />
                             </div>
                             <ServiceHappyClientsSlider />
                         </div>
