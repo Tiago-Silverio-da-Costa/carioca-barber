@@ -69,8 +69,8 @@ export default function Footer() {
                     <div className="flex flex-col items-start gap-4">
                         <p className="text-xl uppercase font-bold">Horários</p>
                         <div className="flex flex-col text-[#b1b1b1] text-xs">
-                            <span className="text-sm tracking-tight leading-5 text-start max-w-96">Segunda-Sexta: 8:00 - 20:00</span>
-                            <span className="text-sm tracking-tight leading-5 text-start max-w-96">Sábado: 8:00 - 17:00</span>
+                            <span className="text-sm tracking-tight leading-5 text-start max-w-96">Segunda-Sexta: 8:00 - 12:00 e 13:30 - 19:00</span>
+                            <span className="text-sm tracking-tight leading-5 text-start max-w-96">Sábado: 8:00 - 12:00 e 13:30 - 17:00</span>
                             <span className="text-sm tracking-tight leading-5 text-start max-w-96">Domingo: FECHADO</span>
                         </div>
                         <Link className="hover:scale-110 transition-all duration-300 text-center flex w-fit items-center justify-center gap-2 text-sm font-medium bg-[#fab93b] text-black py-2 px-4 rounded-md"

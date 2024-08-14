@@ -19,7 +19,7 @@ export default function Barbers() {
     return (
         <section className="bg-white text-black">
             <div className="flex flex-col items-center max-w-6xl mx-auto w-5/6 py-32">
-                <h1 className={`${autogate.className} uppercase text-3xl md:text-5xl font-bold text-end max-w-lg`}>Barbeiros</h1>
+                <h1 className={`${autogate.className} uppercase text-3xl md:text-5xl font-bold text-end max-w-lg`}>Equipe</h1>
                 <p className="text-sm tracking-tight leading-5 text-center max-w-2xl mt-8">Cada membro da nossa equipe está comprometido em proporcionar uma experiência excepcional, garantindo que você saia da nossa barbearia parecendo e se sentindo o melhor possível.</p>
                 <div className="flex justify-center md:justify-start flex-wrap gap-4 mt-16 ">
                     <div className="flex flex-col justify-between rounded-xl gap-8 bg-[#f0ede8] pb-0 p-8">
@@ -27,18 +27,6 @@ export default function Barbers() {
                             <div className="flex flex-col bg-white px-4 py-2 rounded-lg">
                                 <p className="text-lg font-medium tracking-tight leading-5">João Felipe</p>
                                 <span className="text-[#a3a3a4] font-medium text-sm tracking-tight leading-5">Barbeiro</span>
-                            </div>
-
-                            <div className="flex flex-col gap-2 text-[#a3a3a4]">
-                                <Link className="flex items-center gap-6 text-[#b1b1b1] hover:text-[#fab93b] transition-all duration-300 text-2xl"
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    aria-label="Entre em contato com a Barbearia Carioca pelo Whatsapp"
-                                    href="https://www.instagram.com/barbearia.carioca/"
-                                >
-                                    <FaInstagram />
-
-                                </Link>
                             </div>
                         </div>
                         <Image src="/barbers/1.png" alt="" width={200} height={200} />
@@ -50,18 +38,6 @@ export default function Barbers() {
                                 <p className="text-lg font-medium tracking-tight leading-5">Lucas Nunes</p>
                                 <span className="text-[#a3a3a4] font-medium text-sm tracking-tight leading-5">Barbeiro</span>
                             </div>
-
-                            <div className="flex flex-col gap-2 text-[#a3a3a4]">
-                                <Link className="flex items-center gap-6 text-[#b1b1b1] hover:text-[#fab93b] transition-all duration-300 text-2xl"
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    aria-label="Entre em contato com a Barbearia Carioca pelo Whatsapp"
-                                    href="https://www.instagram.com/barbearia.carioca/"
-                                >
-                                    <FaInstagram />
-
-                                </Link>
-                            </div>
                         </div>
                         <Image src="/barbers/2.png" alt="" width={200} height={200} />
                     </div>
@@ -71,18 +47,6 @@ export default function Barbers() {
                             <div className="flex flex-col bg-white px-4 py-2 rounded-lg">
                                 <p className="text-lg font-medium tracking-tight leading-5">Vitor Almeida</p>
                                 <span className="text-[#a3a3a4] font-medium text-sm tracking-tight leading-5">Barbeiro</span>
-                            </div>
-
-                            <div className="flex flex-col gap-2 text-[#a3a3a4]">
-                                <Link className="flex items-center gap-6 text-[#b1b1b1] hover:text-[#fab93b] transition-all duration-300 text-2xl"
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    aria-label="Entre em contato com a Barbearia Carioca pelo Whatsapp"
-                                    href="https://www.instagram.com/barbearia.carioca/"
-                                >
-                                    <FaInstagram />
-
-                                </Link>
                             </div>
                         </div>
                         <Image src="/barbers/3.png" alt="" width={200} height={200} />

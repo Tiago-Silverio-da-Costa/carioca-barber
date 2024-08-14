@@ -47,12 +47,12 @@ export default function Services() {
         },
         {
             id: 6,
-            Service: "Luzes",
+            Service: "Tonalizante",
             icon: <Image src="/services/mustache2.svg" alt="Luzes na Barbearia Carioca Camboriú" width={50} height={50} />
         },
         {
             id: 7,
-            Service: "Tintura",
+            Service: "Relaxamento",
             icon: <Image src="/services/mustache1.svg" alt="Tintura na Barbearia Carioca Camboriú" width={50} height={50} />
         },
         {
@@ -64,7 +64,22 @@ export default function Services() {
             id: 9,
             Service: "Sobrancelha",
             icon: <Image src="/services/mustache1.svg" alt="Sobrancelha na Barbearia Carioca Camboriú" width={50} height={50} />
-        }
+        },
+        {
+            id: 10,
+            Service: "Corte Infantil",
+            icon: <Image src="/services/mustache1.svg" alt="Sobrancelha na Barbearia Carioca Camboriú" width={50} height={50} />
+        },
+        {
+            id: 11,
+            Service: "Corte feminino",
+            icon: <Image src="/services/mustache1.svg" alt="Sobrancelha na Barbearia Carioca Camboriú" width={50} height={50} />
+        },
+        {
+            id: 12,
+            Service: "Depilação Orelha e Nariz",
+            icon: <Image src="/services/mustache1.svg" alt="Sobrancelha na Barbearia Carioca Camboriú" width={50} height={50} />
+        },
     ];
 
     return (
@@ -73,12 +88,23 @@ export default function Services() {
                 <div className="flex flex-col lg:flex-row justify-start items-start gap-8 ">
                     <div className="flex flex-col gap-4 md:gap-8 w-full">
                         <h1 className={`${autogate.className} uppercase text-3xl md:text-5xl font-bold text-start max-w-lg`}>Nossos trabalhos</h1>
-                        <p className="text-sm tracking-tight leading-5 text-start max-w-2xl">Nossa missão é oferecer um serviço excepcional em um ambiente acolhedor e descontraído. Seja você um fã de um corte clássico, um moderno fade ou uma barba feita na navalha, nossos talentosos barbeiros estão dedicados a fazer você se sentir incrível.</p>
+                        <p className="text-sm tracking-tight leading-5 text-start max-w-2xl">Na nossa barbearia, oferecemos serviços de alta qualidade em um ambiente acolhedor e descontraído. Seja um corte clássico, um moderno fade ou uma barba feita na navalha, nossos barbeiros talentosos estão aqui para garantir que você se sinta incrível e satisfeito com o resultado.</p>
                     </div>
                     <div className="flex flex-col gap-2">
                         <ServiceSlider />
                     </div>
+
                 </div>
+                    <div className="w-full">
+                        <iframe
+                            className="w-[95%] rounded-md"
+                            width="560"
+                            height="315"
+                            src="https://www.youtube.com/embed/N9nWdq0Q5r0?si=mkLY6LD5RcpDgxTU"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen
+                        ></iframe>
+                    </div>
 
 
                 <div className="flex flex-col w-full mt-16 lg:mt-32">

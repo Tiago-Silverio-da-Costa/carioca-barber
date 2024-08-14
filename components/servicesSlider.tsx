@@ -20,18 +20,6 @@ export default function ServiceSlider() {
 
     const servicesList: ServicesProps[] = [
         {
-            id: 2,
-            image: "/services/1.jpeg",
-        },
-        {
-            id: 10,
-            image: "/services/2.jpeg",
-        },
-        {
-            id: 11,
-            image: "/services/3.jpeg",
-        },
-        {
             id: 12,
             image: "/services/4.jpeg",
         },

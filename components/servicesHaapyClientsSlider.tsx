@@ -19,22 +19,28 @@ export default function ServiceHappyClientsSlider() {
 
 
     const servicesList: ServicesProps[] = [
+
         {
-            id: 2,
-            image: "/services/happyClients/1.jpeg",
+            id: 5,
+            image: "/services/happyClients/5.jpeg",
         },
         {
-            id: 10,
-            image: "/services/happyClients/2.jpeg",
+            id: 6,
+            image: "/services/happyClients/6.jpeg",
         },
         {
-            id: 11,
-            image: "/services/happyClients/3.jpeg",
+            id: 7,
+            image: "/services/happyClients/7.jpeg",
         },
         {
-            id: 14,
-            image: "/services/happyClients/4.jpeg",
+            id: 8,
+            image: "/services/happyClients/8.jpeg",
+        },
+        {
+            id: 9,
+            image: "/services/happyClients/9.jpeg",
         }
+        
     ];
 
     return (
