@@ -93,9 +93,44 @@ export default function Services() {
                     <div className="flex flex-col gap-2">
                         <ServiceSlider />
                     </div>
+                </div>
+
+                <div className="flex flex-col-reverse lg:flex-row justify-start items-start gap-8  mt-32">
+                    <iframe
+                        className="w-[95%] max-w-60 h-[26.5rem] rounded-xl"
+                        width="240"
+                        height="320"
+                        src="https://www.youtube.com/embed/JNXD8KEVaS4?si=wN83kXrzED8chLNz"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                    ></iframe>
+
+                    <div className="flex flex-col gap-8">
+                        <h1 className={`${autogate.className} uppercase text-3xl md:text-5xl font-bold text-start max-w-lg`}>Cortes Femininos</h1>
+                        <p className="text-sm tracking-tight leading-5 text-start max-w-2xl">
+                            Na Barbearia Carioca, oferecemos cortes femininos com a mesma qualidade que aplicamos aos cortes masculinos.
+                            <br />
+                            <br />
+                            É importante ressaltar que apenas o Carioca está especializado em cortes femininos.
+                            <br />
+                            <br />
+                            Para garantir um atendimento personalizado e exclusivo com o Carioca, é essencial agendar seu horário com antecedência.
+                            <br />
+                            <br />
+                            Entre em contato para marcar sua visita e descubra o estilo único que só o Carioca pode proporcionar.
+                        </p>
+                        <Link className="text-center flex w-full items-center justify-center gap-2 text-sm font-medium hover:scale-105 transition-all duration-300 bg-[#fab93b] text-black py-2 px-4 rounded-md"
+                            target="_blank"
+                            rel="noreferrer"
+                            aria-label="Entre em contato com a Barbearia Carioca pelo Whatsapp"
+                            href="https://api.whatsapp.com/send?phone=5547999055144"
+                        >
+
+                            Agende agora!
+                        </Link>
+                    </div>
 
                 </div>
-     
 
 
                 <div className="flex flex-col w-full mt-16 lg:mt-32">
