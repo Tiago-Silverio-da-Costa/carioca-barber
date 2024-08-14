@@ -95,16 +95,7 @@ export default function Services() {
                     </div>
 
                 </div>
-                    <div className="w-full">
-                        <iframe
-                            className="w-[95%] rounded-md"
-                            width="560"
-                            height="315"
-                            src="https://www.youtube.com/embed/N9nWdq0Q5r0?si=mkLY6LD5RcpDgxTU"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowFullScreen
-                        ></iframe>
-                    </div>
+     
 
 
                 <div className="flex flex-col w-full mt-16 lg:mt-32">
