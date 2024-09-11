@@ -21,7 +21,7 @@ export default function Home() {
     const pathname = usePathname();
 
     return (
-        <Section $bg="/home/home.jfif">
+        <Section $bg="/home/home2.jpeg">
             {pathname === "/" && (
                 <Header />
             )}

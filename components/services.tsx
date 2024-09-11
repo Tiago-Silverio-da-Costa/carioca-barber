@@ -143,7 +143,7 @@ export default function Services() {
                                         <div className="text-2xl text-[#fab93b]">
                                             {serv.icon}
                                         </div>
-                                        <p className="uppercase font-medium tracking-tighter leading-6 text-xl">{serv.Service}</p>
+                                        <p className="uppercase font-medium tracking-tighter leading-6 text-xl text-center">{serv.Service}</p>
                                     </div>
                                 </div>
 

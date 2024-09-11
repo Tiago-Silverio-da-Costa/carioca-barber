@@ -33,11 +33,11 @@ export default function Header() {
                         <Link className={`min-w-28 text-center ${pathname === "/sobre" ? "bg-white text-black" : "text-white"} hover:bg-white hover:text-black font-bold rounded-[3px] px-4 py-2 text-sm text-black transition-all duration-300`} href="/sobre">Sobre</Link>
                     </li>
                 </ul>
-                <ul className="group">
+                {/* <ul className="group">
                     <li className="flex flex-col items-center">
                         <Link className={`min-w-28 text-center ${pathname === "/barbeiros" ? "bg-white text-black" : "text-white"} hover:bg-white hover:text-black font-bold rounded-[3px] px-4 py-2 text-sm text-black transition-all duration-300`} href="/barbeiros">Barbeiros</Link>
                     </li>
-                </ul>
+                </ul> */}
             </nav>
             <Link className="hidden md:flex items-center gap-2 text-sm font-medium text-white border border-white hover:bg-white hover:text-black py-3 px-6 rounded-md w-fit transition-all duration-300"
                 target="_blank"
@@ -84,9 +84,9 @@ export default function Header() {
                             <li className="flex gap-2 items-center justify-center">
                                 <Link onClick={() => setOpenPopup(false)} className={`${pathname === "/sobre" ? "bg-white text-black" : "text-white"} font-bold text-center rounded-[3px] px-4 py-2 uppercase text-lg text-textTitle transition-all duration-300`} href="/sobre">Sobre</Link>
                             </li>
-                            <li className="flex gap-2 items-center justify-center">
+                            {/* <li className="flex gap-2 items-center justify-center">
                                 <Link onClick={() => setOpenPopup(false)} className={`${pathname === "/barbeiros" ? "bg-white text-black" : "text-white"} font-bold text-center rounded-[3px] px-4 py-2 uppercase text-lg text-textTitle transition-all duration-300`} href="/barbeiros">Barbeiros</Link>
-                            </li>
+                            </li> */}
                         </ul>
                     </nav>
                 )
